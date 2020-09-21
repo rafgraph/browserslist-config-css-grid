@@ -16,7 +16,7 @@ npm install --save-dev browserslist-config-css-grid
 
 ### Recommended Usage
 
-Since `browserslist-config-css-grid` includes _all_ browsers that support CSS Grid it is recommended to combine it with [`and` queries](https://github.com/browserslist/browserslist#query-composition) to further limit the supported browsers.
+Since `browserslist-config-css-grid` includes _all_ browsers that support CSS Grid it is recommended to combine it with `and` queries to further limit the supported browsers.
 
 To combine it with Browserslist's `defaults` list use:
 ```
@@ -29,10 +29,10 @@ To combine it with the last 2 versions, or > 0.2%, and browsers that are not dea
 
 ```
   "browserslist": [
-    "last 2 versions or > 0.3% and not dead and extends browserslist-config-css-grid"
+    "last 2 versions or > 0.2% and not dead and extends browserslist-config-css-grid"
   ]
 ```
 
 After setting up the `browserslist` config in your project you can run `npx browserslist` in the root directory to see the list of browsers.
 
-For more info on using `browserslist` see https://github.com/browserslist/browserslist
+For more info on using `browserslist` queries see https://github.com/browserslist/browserslist#query-composition
