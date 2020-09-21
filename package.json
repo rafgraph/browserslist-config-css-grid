@@ -1,6 +1,6 @@
 {
   "name": "browserslist-config-css-grid",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Browserslist config of all browsers that support css grid",
   "main": "src/index.js",
   "scripts": {
