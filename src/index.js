@@ -1,0 +1,16 @@
+module.exports = [
+  'Chrome >= 58',
+  'ChromeAndroid >= 58',
+  'Android >= 58',
+  'Safari >= 10.1',
+  'iOS >= 10.3',
+  'Firefox >= 54',
+  'FirefoxAndroid >= 54',
+  'Edge >= 16',
+  'Opera >= 44',
+  'OperaMobile >= 59',
+  'UCAndroid >= 12.12',
+  'Samsung >= 6.2',
+  'QQAndroid >= 10.4',
+  'Kaios >= 2.5',
+];

@@ -2,7 +2,11 @@
   "name": "browserslist-config-css-grid",
   "version": "0.0.0",
   "description": "Browserslist config of all browsers that support css grid",
-  "main": "index.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "prepublishOnly": "npm test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rafgraph/browserslist-config-css-grid.git"
@@ -16,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/rafgraph/browserslist-config-css-grid/issues"
   },
-  "homepage": "https://github.com/rafgraph/browserslist-config-css-grid#readme"
+  "homepage": "https://github.com/rafgraph/browserslist-config-css-grid#readme",
+  "devDependencies": {
+    "browserslist": "^4.14.3",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.2"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true
+  }
 }
